@@ -1,0 +1,190 @@
+I, [2013-07-27T20:09:26.143715 #9138]  INFO -- : Refreshing Gem list
+/home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/execjs-1.4.0/lib/execjs/runtimes.rb:51:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/execjs-1.4.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/execjs-1.4.0/lib/execjs.rb:4:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.3.5/lib/bundler/runtime.rb:72:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.3.5/lib/bundler/runtime.rb:72:in `block (2 levels) in require'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.3.5/lib/bundler/runtime.rb:70:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.3.5/lib/bundler/runtime.rb:70:in `block in require'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.3.5/lib/bundler/runtime.rb:59:in `each'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.3.5/lib/bundler/runtime.rb:59:in `require'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448@global/gems/bundler-1.3.5/lib/bundler.rb:132:in `require'
+	from /var/www/unicorn/config/application.rb:7:in `<top (required)>'
+	from /home/ubuntu/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:51:in `require'
+	from /home/ubuntu/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:51:in `require'
+	from /var/www/unicorn/config/environment.rb:2:in `<top (required)>'
+	from /home/ubuntu/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:51:in `require'
+	from /home/ubuntu/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:51:in `require'
+	from config.ru:4:in `block in <main>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/bin/unicorn_rails:139:in `call'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/bin/unicorn_rails:139:in `block in rails_builder'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:140:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/gems/unicorn-4.6.3/bin/unicorn_rails:209:in `<top (required)>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/bin/unicorn_rails:23:in `load'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/bin/unicorn_rails:23:in `<main>'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/bin/ruby_noexec_wrapper:14:in `eval'
+	from /home/ubuntu/.rvm/gems/ruby-1.9.3-p448/bin/ruby_noexec_wrapper:14:in `<main>'
+I, [2013-07-27T20:14:43.069999 #9619]  INFO -- : Refreshing Gem list
+I, [2013-07-27T20:14:44.936138 #9619]  INFO -- : listening on addr=/tmp/.unicorn.sock fd=10
+I, [2013-07-27T20:14:44.936754 #9619]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2013-07-27T20:14:44.977081 #9622]  INFO -- : worker=0 ready
+I, [2013-07-27T20:14:45.001915 #9625]  INFO -- : worker=1 ready
+I, [2013-07-27T20:14:45.022619 #9628]  INFO -- : worker=2 ready
+I, [2013-07-27T20:14:45.029178 #9619]  INFO -- : master process ready
+I, [2013-07-27T20:14:45.051435 #9631]  INFO -- : worker=3 ready
+I, [2013-07-28T20:35:13.452377 #9619]  INFO -- : reaped #<Process::Status: pid 9625 exit 0> worker=1
+I, [2013-07-28T20:35:13.556738 #9619]  INFO -- : reaped #<Process::Status: pid 9622 exit 0> worker=0
+I, [2013-07-28T20:35:13.556846 #9619]  INFO -- : reaped #<Process::Status: pid 9628 exit 0> worker=2
+I, [2013-07-28T20:35:13.556931 #9619]  INFO -- : reaped #<Process::Status: pid 9631 exit 0> worker=3
+I, [2013-07-28T20:35:13.557118 #9619]  INFO -- : master complete
+I, [2013-07-28T22:50:30.239751 #1179]  INFO -- : Refreshing Gem list
+I, [2013-07-28T22:50:33.436397 #1179]  INFO -- : listening on addr=/tmp/.unicorn.sock fd=12
+I, [2013-07-28T22:50:33.436901 #1179]  INFO -- : listening on addr=0.0.0.0:8080 fd=13
+I, [2013-07-28T22:50:33.475710 #1183]  INFO -- : worker=0 ready
+I, [2013-07-28T22:50:33.500640 #1186]  INFO -- : worker=1 ready
+I, [2013-07-28T22:50:33.525531 #1189]  INFO -- : worker=2 ready
+I, [2013-07-28T22:50:33.532327 #1179]  INFO -- : master process ready
+I, [2013-07-28T22:50:33.546378 #1192]  INFO -- : worker=3 ready
+184.58.27.192 - - [28/Jul/2013 22:50:47] "GET /zombies HTTP/1.0" 200 - 1.1355
+184.58.27.192 - - [28/Jul/2013 22:50:47] "GET /scaffolds.css?body=1 HTTP/1.0" 200 1767 0.0307
+184.58.27.192 - - [28/Jul/2013 22:50:47] "GET /jquery_ujs.js?body=1 HTTP/1.0" 200 15477 0.0207
+184.58.27.192 - - [28/Jul/2013 22:50:47] "GET /jquery.js?body=1 HTTP/1.0" 200 273200 0.0729
+184.58.27.192 - - [28/Jul/2013 22:50:47] "GET /application.js?body=1 HTTP/1.0" 200 585 0.1385
+184.58.27.192 - - [28/Jul/2013 22:50:48] "GET /application.css?body=1 HTTP/1.0" 200 513 1.6745
+184.58.27.192 - - [28/Jul/2013 22:50:49] "GET /zombies.css?body=1 HTTP/1.0" 200 - 1.7512
+184.58.27.192 - - [28/Jul/2013 22:50:49] "GET /zombies.js?body=1 HTTP/1.0" 200 31 1.7473
+184.58.27.192 - - [28/Jul/2013 22:50:53] "GET /zombies/new HTTP/1.0" 200 - 0.1854
+184.58.27.192 - - [28/Jul/2013 22:51:04] "POST /zombies HTTP/1.0" 302 - 0.1647
+184.58.27.192 - - [28/Jul/2013 22:51:04] "GET /zombies/1 HTTP/1.0" 200 - 0.1761
+184.58.27.192 - - [28/Jul/2013 22:51:09] "GET /zombies HTTP/1.0" 200 - 0.0724
+184.58.27.192 - - [28/Jul/2013 23:48:10] "GET /zombies HTTP/1.0" 304 - 0.0431
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /zombies HTTP/1.0" 304 - 0.0245
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0037
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0078
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0063
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0068
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0046
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0114
+184.58.27.192 - - [28/Jul/2013 23:48:12] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0094
+184.58.27.192 - - [28/Jul/2013 23:48:14] "GET /zombies HTTP/1.0" 304 - 0.0305
+184.58.27.192 - - [28/Jul/2013 23:48:14] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0033
+184.58.27.192 - - [28/Jul/2013 23:48:14] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0050
+184.58.27.192 - - [28/Jul/2013 23:48:14] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0188
+184.58.27.192 - - [28/Jul/2013 23:48:14] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0117
+184.58.27.192 - - [28/Jul/2013 23:48:14] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0124
+184.58.27.192 - - [28/Jul/2013 23:48:14] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0089
+184.58.27.192 - - [28/Jul/2013 23:48:15] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0039
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /zombies HTTP/1.0" 304 - 0.0201
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0070
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0093
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0141
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0132
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0055
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0042
+184.58.27.192 - - [28/Jul/2013 23:48:17] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0095
+184.58.27.192 - - [28/Jul/2013 23:48:19] "GET /zombies HTTP/1.0" 304 - 0.0190
+184.58.27.192 - - [28/Jul/2013 23:48:19] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0069
+184.58.27.192 - - [28/Jul/2013 23:48:19] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0169
+184.58.27.192 - - [28/Jul/2013 23:48:19] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0169
+184.58.27.192 - - [28/Jul/2013 23:48:19] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0210
+184.58.27.192 - - [28/Jul/2013 23:48:19] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0058
+184.58.27.192 - - [28/Jul/2013 23:48:19] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0090
+184.58.27.192 - - [28/Jul/2013 23:48:20] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0039
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /zombies HTTP/1.0" 304 - 0.0201
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0033
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0086
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0112
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0099
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0068
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0085
+184.58.27.192 - - [28/Jul/2013 23:48:21] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0040
+184.58.27.192 - - [28/Jul/2013 23:48:23] "GET /zombies HTTP/1.0" 304 - 0.0199
+184.58.27.192 - - [28/Jul/2013 23:48:23] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0032
+184.58.27.192 - - [28/Jul/2013 23:48:23] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0030
+184.58.27.192 - - [28/Jul/2013 23:48:23] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0070
+184.58.27.192 - - [28/Jul/2013 23:48:23] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0082
+184.58.27.192 - - [28/Jul/2013 23:48:23] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0069
+184.58.27.192 - - [28/Jul/2013 23:48:23] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0041
+184.58.27.192 - - [28/Jul/2013 23:48:24] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0038
+184.58.27.192 - - [28/Jul/2013 23:48:26] "GET /zombies HTTP/1.0" 304 - 0.0199
+184.58.27.192 - - [28/Jul/2013 23:48:27] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0032
+184.58.27.192 - - [28/Jul/2013 23:48:27] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0086
+184.58.27.192 - - [28/Jul/2013 23:48:27] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0108
+184.58.27.192 - - [28/Jul/2013 23:48:27] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0027
+184.58.27.192 - - [28/Jul/2013 23:48:27] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0630
+184.58.27.192 - - [28/Jul/2013 23:48:27] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0063
+184.58.27.192 - - [28/Jul/2013 23:48:27] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0042
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /zombies/new HTTP/1.0" 304 - 0.0619
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0034
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0111
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0159
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0073
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0115
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0031
+184.58.27.192 - - [28/Jul/2013 23:49:41] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0039
+184.58.27.192 - - [28/Jul/2013 23:50:04] "POST /zombies HTTP/1.0" 302 - 0.0174
+184.58.27.192 - - [28/Jul/2013 23:50:04] "GET /zombies/2 HTTP/1.0" 200 - 0.0243
+184.58.27.192 - - [28/Jul/2013 23:50:05] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0076
+184.58.27.192 - - [28/Jul/2013 23:50:05] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0040
+184.58.27.192 - - [28/Jul/2013 23:50:05] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0071
+184.58.27.192 - - [28/Jul/2013 23:50:05] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0059
+184.58.27.192 - - [28/Jul/2013 23:50:05] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0037
+184.58.27.192 - - [28/Jul/2013 23:50:05] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0027
+184.58.27.192 - - [28/Jul/2013 23:50:05] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0044
+184.58.27.192 - - [28/Jul/2013 23:50:09] "GET /zombies HTTP/1.0" 200 - 0.0324
+184.58.27.192 - - [28/Jul/2013 23:50:09] "GET /scaffolds.css?body=1 HTTP/1.0" 304 - 0.0030
+184.58.27.192 - - [28/Jul/2013 23:50:09] "GET /application.css?body=1 HTTP/1.0" 304 - 0.0084
+184.58.27.192 - - [28/Jul/2013 23:50:10] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0124
+184.58.27.192 - - [28/Jul/2013 23:50:10] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0067
+184.58.27.192 - - [28/Jul/2013 23:50:10] "GET /zombies.css?body=1 HTTP/1.0" 304 - 0.0089
+184.58.27.192 - - [28/Jul/2013 23:50:10] "GET /zombies.js?body=1 HTTP/1.0" 304 - 0.0057
+184.58.27.192 - - [28/Jul/2013 23:50:10] "GET /application.js?body=1 HTTP/1.0" 304 - 0.0097
+184.58.27.192 - - [29/Jul/2013 02:11:37] "GET /zombies HTTP/1.0" 200 - 0.0224
+184.58.27.192 - - [29/Jul/2013 02:11:37] "GET /application.css?body=1 HTTP/1.0" 200 513 0.0039
+184.58.27.192 - - [29/Jul/2013 02:11:37] "GET /scaffolds.css?body=1 HTTP/1.0" 200 1767 0.0034
+184.58.27.192 - - [29/Jul/2013 02:11:38] "GET /zombies.css?body=1 HTTP/1.0" 200 - 0.0031
+184.58.27.192 - - [29/Jul/2013 02:11:38] "GET /zombies.js?body=1 HTTP/1.0" 200 31 0.0103
+184.58.27.192 - - [29/Jul/2013 02:11:38] "GET /jquery_ujs.js?body=1 HTTP/1.0" 200 15477 0.0114
+184.58.27.192 - - [29/Jul/2013 02:11:38] "GET /application.js?body=1 HTTP/1.0" 200 585 0.0096
+184.58.27.192 - - [29/Jul/2013 02:11:38] "GET /jquery.js?body=1 HTTP/1.0" 200 273200 0.0253
+I, [2013-07-29T02:11:48.463567 #1179]  INFO -- : reaped #<Process::Status: pid 1183 exit 0> worker=0
+I, [2013-07-29T02:11:48.463760 #1179]  INFO -- : reaped #<Process::Status: pid 1186 exit 0> worker=1
+I, [2013-07-29T02:11:48.463853 #1179]  INFO -- : reaped #<Process::Status: pid 1189 exit 0> worker=2
+I, [2013-07-29T02:11:48.463939 #1179]  INFO -- : reaped #<Process::Status: pid 1192 exit 0> worker=3
+I, [2013-07-29T02:11:48.464109 #1179]  INFO -- : master complete
+I, [2013-07-29T02:11:59.577215 #1506]  INFO -- : Refreshing Gem list
+I, [2013-07-29T02:12:01.852994 #1506]  INFO -- : unlinking existing socket=/tmp/.unicorn.sock
+I, [2013-07-29T02:12:01.853318 #1506]  INFO -- : listening on addr=/tmp/.unicorn.sock fd=12
+I, [2013-07-29T02:12:01.853802 #1506]  INFO -- : listening on addr=0.0.0.0:8080 fd=13
+I, [2013-07-29T02:12:01.895535 #1510]  INFO -- : worker=0 ready
+I, [2013-07-29T02:12:01.923055 #1513]  INFO -- : worker=1 ready
+I, [2013-07-29T02:12:01.950989 #1516]  INFO -- : worker=2 ready
+I, [2013-07-29T02:12:01.954343 #1506]  INFO -- : master process ready
+I, [2013-07-29T02:12:01.986235 #1519]  INFO -- : worker=3 ready
+184.58.27.192 - - [29/Jul/2013 02:12:06] "GET /zombies HTTP/1.0" 200 - 0.8234
+184.58.27.192 - - [29/Jul/2013 02:12:40] "GET /zombies HTTP/1.0" 304 - 0.6901
+184.58.27.192 - - [29/Jul/2013 02:25:02] "GET /zombies/1 HTTP/1.0" 200 - 0.7919
+184.58.27.192 - - [29/Jul/2013 02:25:29] "GET /zombies/1 HTTP/1.0" 304 - 0.6769
+184.58.27.192 - - [29/Jul/2013 02:25:32] "GET /zombies/1/edit HTTP/1.0" 200 - 0.0486
+184.58.27.192 - - [29/Jul/2013 02:25:41] "GET /zombies/new HTTP/1.0" 200 - 0.0549
+184.58.27.192 - - [29/Jul/2013 02:25:48] "GET /zombies/new HTTP/1.0" 304 - 0.0352
+184.58.27.192 - - [29/Jul/2013 02:26:04] "DELETE /zombies/2 HTTP/1.0" 302 - 0.0293
+184.58.27.192 - - [29/Jul/2013 02:26:04] "GET /zombies HTTP/1.0" 200 - 0.0265
+184.58.27.192 - - [29/Jul/2013 02:26:07] "GET /zombies/new HTTP/1.0" 304 - 0.0252
+184.58.27.192 - - [29/Jul/2013 02:26:16] "POST /zombies HTTP/1.0" 302 - 0.0711
+184.58.27.192 - - [29/Jul/2013 02:26:16] "GET /zombies/3 HTTP/1.0" 200 - 0.0216
+184.58.27.192 - - [29/Jul/2013 02:26:18] "GET /zombies HTTP/1.0" 200 - 0.0240
